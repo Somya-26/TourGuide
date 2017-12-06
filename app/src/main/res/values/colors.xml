@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AD1457</color>
+    <color name="colorPrimaryDark">#880E4F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorFamousPlace">#ff8a80</color>
+    <color name="colorHotel">#b39ddb</color>
+    <color name="colorRestaurant">#DCE775</color>
+    <color name="colorHospital">#FFCC80</color>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.userpc.tourguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FamousPlaces" android:parentActivityName="com.example.userpc.tourguide.MainActivity"
+            android:label="Famous Places">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.userpc.tourguide.MainActivity" />
+        </activity>
+        <activity android:name=".Hotels" android:parentActivityName="com.example.userpc.tourguide.MainActivity"
+            android:label="Hotels">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.userpc.tourguide.MainActivity" />
+        </activity>
+        <activity android:name=".Restaurants" android:parentActivityName="com.example.userpc.tourguide.MainActivity"
+            android:label="Restaurants">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.userpc.tourguide.MainActivity" />
+        </activity>
+        <activity android:name=".Hospitals"
+            android:parentActivityName="com.example.userpc.tourguide.MainActivity"
+            android:label="Famous Places">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.userpc.tourguide.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

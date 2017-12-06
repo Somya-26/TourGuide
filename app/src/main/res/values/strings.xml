@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="famous_places">Famous Places</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="hotels">Hotels</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="title">Patiala</string>
+    <string name="title2">The Royal City</string>
+</resources>
